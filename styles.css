@@ -1,0 +1,218 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.headMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Here is for the hidden section */
+.hidden{
+    display: none;
+}
+
+/* Here is for the query section */
+@media(min-width:600px){
+    .headMain{
+        display: none;
+    }
+    .hidden{
+        display: flex;
+        gap: 6rem;
+    }
+    .h2head{
+        font-size: 2.4rem;
+    }
+    .phead{
+        font-size: 1.4rem;
+    }
+
+    .heanbtn{
+        width: 90px;
+        height: 40px;
+        border-radius: 2rem;
+    }
+
+    .headlink{
+        color: #007bff;
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding-left: 4rem;
+        padding-top: 1.5rem;
+    }
+
+    .headlink1:hover{
+        color: #007bff;
+        position: absolute;
+        left: 10px;
+    }
+}
+
+img{
+    width: 20rem;
+    height: 15rem;
+}
+
+
+.parent{
+    justify-content: center;
+    place-items: center;
+}
+
+/* Here is for the email input design */
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+
+.input-container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.email-icon {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Left padding for the icon */
+    border: 1px solid #ccc;
+    border-right: 7px solid #007bff; /* Bold blue right border */
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.email-input:focus {
+    border-color: #007bff; /* Changes border color when focused */
+}
+
+/* Her the design for the password field */
+
+
+.password-icon {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.password-icon1{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+
+}
+
+/* Here is for the ancho link */
+
+.anco{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8rem;
+}
+.ancho{
+    padding-top: 1rem;
+    text-decoration: none;
+    color: rgb(126, 120, 113);
+}
+
+.ancho1{
+    padding-top: 1rem;
+    text-decoration: none;
+    color: rgb(126, 120, 113);
+}
+
+button{
+    margin-top: 1rem;
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+
+/* Here is the query for the main section */
+@media(min-width:600px){
+    .parent{
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        gap: 10rem;
+    }
+    img{
+        width: 40rem;
+        height: 30rem;
+    }
+
+    .input-container{
+    
+        width: 400px;
+    }
+    
+    .input-container1{
+        margin-top: 2rem;
+        width: 400px;
+    }
+    .anco{
+        gap: 15rem;
+    }
+    button{
+        width: 400px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* Here is for the footer */
+
+
+
+
+footer{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.foot{
+    height: 20px;
+    width: 20px;
+}
+
+.Privacy{
+    display: flex;
+    gap: 1rem;
+
+}
+/* Here is the query for the footer */
+
+@media(min-width:600px){
+    footer{
+        margin-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
